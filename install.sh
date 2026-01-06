@@ -64,5 +64,3 @@ flatpak install flathub org.inkscape.Inkscape -y
 flatpak install flathub org.audacityteam.Audacity -y
 
 flatpak install flathub com.obsproject.Studio -y
-
-&nbsp;
