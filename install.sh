@@ -21,6 +21,7 @@ sudo apt install ubuntu-restricted-extras -y
 
 sudo apt install partitionmanager -y
 
+
 # Apps
 
 curl -fsS https://dl.brave.com/install.sh | sh
@@ -31,7 +32,9 @@ sudo apt install virtualbox -y
 
 sudo apt install timeshift -y
 
-# Flatpak  
+
+# Flatpak main
+
 sudo apt install flatpak plasma-discover-backend-flatpak -y  
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
@@ -39,7 +42,7 @@ flatpak install flathub com.github.tchx84.Flatseal -y
 
 flatpak install https://dl.flathub.org/repo/appstream/io.github.yuki\_iptv.yuki-iptv.flatpakref -y
 
-flatpak install flathub org.telegram.desktop -y
+flatpak install flathub net.cozic.joplin_desktop -y
 
 flatpak install flathub com.visualstudio.code -y
 
@@ -58,6 +61,9 @@ flatpak install flathub com.ultimaker.cura -y
 flatpak install flathub org.gnome.DejaDup -y
 
 
+# Flatpak extras
+
+flatpak install flathub org.telegram.desktop -y
 
 flatpak install flathub org.inkscape.Inkscape -y
 
