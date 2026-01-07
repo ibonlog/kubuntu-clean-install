@@ -56,14 +56,16 @@ flatpak install flathub org.kde.krdc -y
 
 flatpak install flathub org.mozilla.firefox -y
 
-flatpak install flathub com.ultimaker.cura -y
-
 flatpak install flathub org.gnome.DejaDup -y
 
 flatpak install flathub com.github.jeromerobert.pdfarranger -y
 
 
 # Flatpak extras
+
+flatpak install flathub com.ultimaker.cura -y
+
+flatpak install flathub com.transmissionbt.Transmission -y
 
 flatpak install flathub org.telegram.desktop -y
 
