@@ -60,6 +60,8 @@ flatpak install flathub com.ultimaker.cura -y
 
 flatpak install flathub org.gnome.DejaDup -y
 
+flatpak install flathub com.github.jeromerobert.pdfarranger -y
+
 
 # Flatpak extras
 
